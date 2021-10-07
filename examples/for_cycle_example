@@ -1,0 +1,7 @@
+extern int printf(string x, int y);
+
+main {
+    for i = 0, i < 10, 2 in printf("%d ", i);
+    printf("\n");
+    return 0;
+}

@@ -1,0 +1,13 @@
+extern int printf(string x, int y);
+
+main {
+    var int a = 5;
+    var int *p = &a;
+    var int **p2 = &p;
+    printf("value of a: %d\n", a);
+    *p = 10;
+    printf("value of a now: %d\n", a);
+    **p2 = 15;
+    printf("value of a in the end: %d\n", a);
+    return 0;
+}

@@ -1,0 +1,17 @@
+extern int printf(string x);
+
+main {
+    var int a = 4;
+    if(a > 3) {
+        a = 6;
+        if(a == 4) {
+            return -1;
+        } else {
+            # comment - should get here 
+            printf("Hello!\n");
+            return 0;
+        };
+    } else {
+        return -1;
+    };
+}

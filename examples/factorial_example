@@ -1,0 +1,16 @@
+extern int printf(string x, int y);
+
+def int factorial(int n)
+{
+    if(n > 1) {
+        return n * factorial(n - 1);
+    } els {
+        return 1;
+    };
+};
+
+main {
+    printf("factorial of 5: %d\n", factorial(5));
+    printf("factorial of 6: %d\n", factorial(6));
+    return 0;
+}

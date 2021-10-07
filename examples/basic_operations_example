@@ -1,0 +1,11 @@
+extern int printf(string x, int y);
+
+main {
+    var int a = 2 + 5;
+    var int b = 7 - 4;
+    var double c = 2.5 * 2.0;
+    var double d = c / 2.0;
+    var char e = 't';
+    printf("a = %d\nb = %d\nc = %f\nd = %f\ne = %c\n", a,b,c,d,e);
+    return 0;
+}

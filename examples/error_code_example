@@ -1,0 +1,35 @@
+extern printf(string x, int y);
+
+def int func(int n)
+{
+    if(n > 5) {
+        return 0;
+    } else {
+        var int b = 2;
+    };
+};
+
+def int justOne(int b) {
+    return 1;
+}
+
+main {
+    a;
+    var int b = 2 + 'c';
+    var double c = 4;
+    var int *d = &5;
+    var int e = 6;
+    var int *f = *e;
+    var int h = 4;
+    var string j = "Hello";
+    j = j + "World";
+    5 = 4;
+    justOne(4.0);
+    fun(4);
+    if(5 > 4) {
+        return 1;
+    } else {
+        return 'b';
+    };
+    return 0;
+};
